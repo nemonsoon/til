@@ -7,10 +7,10 @@ $ pnpm format
 > prettier . --check
 
 Checking formatting...
-[warn] .claude/commands/api.md
-[warn] .claude/commands/check.md
-[warn] CLAUDE.md
-[warn] Code style issues found in 8 files.
+[warn] .vscode/settings.json
+[warn] notes/draft.md
+[warn] notes/todo.md
+[warn] Code style issues found in 3 files.
 ```
 
 消した行に書いてあったファイルが、そのまま整形対象として現れている。
